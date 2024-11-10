@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,117 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  background: #3b3b3b;
+  min-width: 100vh;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.app-item {
+  /* border: 1px solid #9b9b9b; */
+  border: none;
+}
+.div-item {
+  height: 270px;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  background: #626262;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+/* .list-div {
+  margin-left: 30px;
+  margin-right: 30px;
+} */
+.list {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  display: flex;
+}
+/* .description {
+  display: flex;
+  gap: 480px;
+} */
+.list1 {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 20px; */
+  /* margin-left: 15px; */
+}
+.list2 {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 20px; */
+  margin-left: 25px;
+}
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+
+  .div-item {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .list-div,
+  .list {
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .list1,
+  .list2 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .div-item {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .App {
+    padding: 10px;
+  }
+  .app-item {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .div-item {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .list-div,
+  .list {
+    flex-direction: column;
+    margin: 0;
+    padding: 4px;
+  }
+
+  /* .list1,
+  .list2 {
+    margin: 5px 0;
+  } */
 }

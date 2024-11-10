@@ -1,0 +1,133 @@
+.expense-list {
+  width: 738px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  /* margin-top: 20px; */
+
+  gap: 10px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+
+  font: Ubuntu;
+  border-radius: 10px;
+}
+
+.blur-background * {
+  filter: blur(8px);
+}
+
+.expense-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-left: 20px;
+  margin-right: 10px;
+
+  border-bottom: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 5px; */
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.expense-amount-and-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.edit-button {
+  /* background-color: #ff3838; */
+  background-color: orange;
+  width: 37px;
+  height: 37px;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  color: #ffffff;
+}
+.delete-button {
+  background-color: #ff3838;
+
+  width: 37px;
+  height: 37px;
+  border: none;
+  border-radius: 30%;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  color: #ffffff;
+}
+
+modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  width: auto;
+}
+@media (max-width: 480px) {
+  .expense-list {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .expense-list {
+    width: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .expense-list {
+    width: auto;
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.page {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #60e36f;
+}
+
+.pagination button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.pagination button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,65 @@
+.income-container {
+  position: relative;
+}
+
+.blurred {
+  filter: blur(5px);
+}
+
+.wallet-balance {
+  width: 355px;
+  height: 181px;
+  top: 140px;
+  left: 90px;
+  border-radius: 15px;
+  background-color: #9b9b9b;
+}
+
+.display-balance {
+  width: 302px;
+  height: 34px;
+  top: 192px;
+  left: 113px;
+  font: Ubuntu;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 40px;
+  margin-left: 30px;
+  color: #ffffff;
+}
+span {
+  font: Ubuntu;
+  font-size: 30px;
+  font-weight: 700;
+
+  color: #9dff5b;
+}
+.addIncome {
+  display: block;
+  width: 167px;
+  height: 38px;
+  border-radius: 15px;
+  margin-top: 25px;
+  margin-left: 80px;
+  background: linear-gradient(90deg, #b5dc52 0%, #89e148 100%);
+  color: #ffffff;
+  border: none;
+}
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.centered-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  width: 600px;
+}

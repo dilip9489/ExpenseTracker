@@ -1,0 +1,106 @@
+/* * {
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.Expenses {
+  width: 538px;
+  height: 335px;
+  background-color: #efefef;
+  /* top: 259px;
+  left: 371px; */
+  border-radius: 15px;
+}
+.Add {
+  width: 201px;
+  height: 34px;
+
+  font: Ubuntu;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+.handleExpense {
+  /* width: 460px; */
+  height: 198px;
+
+  border-radius: 15px;
+  margin-left: 15px;
+}
+.title {
+  width: 223px;
+  height: 51px;
+  display: inline-block;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 0px #d9d9d9, 0 4px 4px 0px #d9d9d9,
+    0 4px 4px 0px #fbfbfb;
+  font: Ubuntu;
+  border: none;
+}
+.amount {
+  width: 223px;
+  height: 51px;
+  padding-left: 10px;
+  margin-left: 5px;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 0px #d9d9d9, 0 4px 4px 0px #d9d9d9,
+    0 4px 4px 0px #fbfbfb;
+  font: Ubuntu;
+  border: none;
+}
+.category {
+  width: 223px;
+  height: 51px;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 0px #d9d9d9, 0 4px 4px 0px #d9d9d9,
+    0 4px 4px 0px #fbfbfb;
+  font: Ubuntu;
+  border: none;
+}
+.date {
+  width: 223px;
+  height: 51px;
+  padding-left: 10px;
+  border-radius: 15px;
+  padding-right: 5px;
+  margin-left: 5px;
+  box-shadow: 0 4px 4px 0px #d9d9d9, 0 4px 4px 0px #d9d9d9,
+    0 4px 4px 0px #fbfbfb;
+  font-family: "Times New Roman", Times, serif;
+  border: none;
+}
+
+.expenseAdded {
+  width: 223px;
+  height: 51px;
+  display: inline-block;
+  border-radius: 15px;
+  background-color: #f4bb4a;
+  box-shadow: 0 4px 4px 0px #d9d9d9, 0 4px 4px 0px #d9d9d9,
+    0 4px 4px 0px #fbfbfb;
+  margin-left: 5px;
+  font: Ubuntu;
+  border: none;
+  margin-top: 10px;
+  text-align: center;
+}
+.cancelExpense {
+  width: 112px;
+  height: 51px;
+  margin-left: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 4px 0px #d9d9d9, 0 4px 4px 0px #d9d9d9,
+    0 4px 4px 0px #fbfbfb;
+  border-radius: 15px;
+  margin-left: 10px;
+  font: Ubuntu;
+  border: none;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+.legend-color {
+  width: 25px;
+  height: 5px;
+  margin-right: 1px;
+}
+.legend {
+  display: flex;
+  align-items: center;
+}
+
+.legend-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: inline;
+  /* width: 25px; */
+  height: 5px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 2px;
+  margin-right: 5px;
+}
+.expense-trends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

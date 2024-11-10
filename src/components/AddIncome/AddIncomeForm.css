@@ -1,0 +1,62 @@
+/* * {
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.add-income {
+  width: 538px;
+  height: 164px;
+  background-color: #efefef;
+
+  border-radius: 15px;
+}
+.add {
+  width: 178px;
+  height: 34px;
+
+  font: Ubuntu;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 15px;
+  margin-left: 10px;
+}
+.form {
+  width: 502px;
+  height: 53px;
+
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.input-income {
+  width: 207px;
+  height: 51px;
+  padding-left: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 4px 0px #d9d9d9, 0 4px 4px 0px #d9d9d9,
+    0 4px 4px 0px #fbfbfb;
+  font: Ubuntu;
+  border: none;
+}
+.add-balance {
+  width: 145px;
+  height: 51px;
+
+  border-radius: 15px;
+  background-color: #f4bb4a;
+  box-shadow: 0 4px 4px 0px #d9d9d9, 0 4px 4px 0px #d9d9d9,
+    0 4px 4px 0px #fbfbfb;
+  margin-left: 10px;
+  font: Ubuntu;
+  border: none;
+}
+.cancel {
+  width: 112px;
+  height: 51px;
+
+  box-shadow: 0 4px 4px 0px #d9d9d9, 0 4px 4px 0px #d9d9d9,
+    0 4px 4px 0px #fbfbfb;
+  border-radius: 15px;
+  margin-left: 10px;
+  font: Ubuntu;
+  border: none;
+}
