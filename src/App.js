@@ -78,7 +78,7 @@ function App() {
                 <ExpenseList
                   expenses={expenses}
                   deleteExpense={deleteExpense}
-                  editExpense={editExpense}
+                  editExpense={saveEditedExpense}
                 />
               </div>
             )}
@@ -92,7 +92,7 @@ function App() {
             {editingExpense && (
               <EditExpenseForm
                 expense={editingExpense}
-                saveEditedExpense={saveEditedExpense}
+                 
                 cancelEdit={() => setEditingExpense(null)}
               />
             )}
